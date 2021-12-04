@@ -20,6 +20,7 @@ void SolveTask3()
 	{
 		strcat(str, str_temp);
 	}
+	strcat (str, " \n");
 	int i = 0;
 	char c1 = '\n';
 	char c2 = '\'';
@@ -120,8 +121,8 @@ void SolveTask3()
 		}
 	}
 	// afisam tablourile
-	printf("%d\n", (cnt_gram - 1));
-	for (i = 0; i < cnt_gram - 1; i++)
+	printf("%d\n", (cnt_gram - 2));
+	for (i = 0; i < cnt_gram - 2; i++)
 	{
 		printf("%s ", tablou_ngrame[i]);
 		printf("%d\n", tablou_apariti_ngrame[i]);
